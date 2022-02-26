@@ -13,17 +13,25 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 69px;
 }
 nav {
-  display: inline-flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav img {
   width: auto;
   height: 50px;
+  margin-left: 10px;
 }
+
 nav li {
   display: inline;
   text-decoration: underline;
+}
+nav a {
+  color: seashell;
 }
