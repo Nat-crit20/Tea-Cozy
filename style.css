@@ -82,6 +82,9 @@ section .box {
 figure {
   margin: auto;
 }
+figcaption h4 {
+  margin-top: 10px;
+}
 figure img {
   height: 200px;
   width: 300px;
