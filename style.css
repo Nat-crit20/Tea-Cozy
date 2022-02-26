@@ -35,6 +35,7 @@ nav img {
 nav li {
   display: inline;
   text-decoration: underline;
+  padding-right: 20px;
 }
 nav a {
   color: seashell;
@@ -113,4 +114,11 @@ figure img {
   margin-right: 20px;
   margin-left: 20px;
   width: 300px;
+}
+.contact {
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding: 20px;
 }
