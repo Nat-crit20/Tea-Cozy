@@ -60,11 +60,29 @@ main {
 .container h4 {
   margin-top: 10px;
 }
-.container {
+main .container {
   display: flex;
   height: auto;
   background-color: black;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+}
+section {
+  position: relative;
+  top: 70px;
+  max-width: 1000px;
+  margin: auto;
+}
+section .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figure {
+  margin: auto;
+}
+figure img {
+  height: 200px;
+  width: 300px;
 }
