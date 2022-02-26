@@ -42,22 +42,29 @@ nav a {
 main {
   display: flex;
   justify-content: center;
+  flex-basis: 1200px;
+  flex-shrink: 2;
 }
 .jumbotron {
-  position: absolute;
+  position: relative;
   top: 70px;
   height: 700px;
-  width: 1200px;
-  background-image: url(img-mission-background.webp);
   display: flex;
+  background-image: url(images/img-mission-background.webp);
   align-items: center;
   justify-content: center;
 }
+.container h2 {
+  margin-bottom: 0;
+}
+.container h4 {
+  margin-top: 10px;
+}
 .container {
   display: flex;
-  min-width: 1200px;
   height: auto;
   background-color: black;
   justify-content: center;
+  align-content: center;
   flex-direction: column;
 }
