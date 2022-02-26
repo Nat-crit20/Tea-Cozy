@@ -5,4 +5,20 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+nav {
+  text-decoration: none;
+}
+nav figure {
+  height: 50px;
+  margin-left: 10px;
 }
