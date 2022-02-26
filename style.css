@@ -12,6 +12,10 @@ body {
 header {
   border-bottom: 1px solid seashell;
   position: fixed;
+  z-index: 5;
+  overflow: hidden;
+  background-color: black;
+  top: 0;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -34,4 +38,26 @@ nav li {
 }
 nav a {
   color: seashell;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.jumbotron {
+  position: absolute;
+  top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url(img-mission-background.webp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  min-width: 1200px;
+  height: auto;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
 }
