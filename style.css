@@ -10,15 +10,20 @@ body {
 }
 
 header {
-  background-color: #333333;
+  border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
-  z-index: 5;
 }
 nav {
-  text-decoration: none;
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-nav figure {
+nav img {
+  width: auto;
   height: 50px;
-  margin-left: 10px;
+}
+nav li {
+  display: inline;
+  text-decoration: underline;
 }
